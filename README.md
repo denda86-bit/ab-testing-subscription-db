@@ -1,6 +1,4 @@
-# ab-testing-subscription-db
-This repository contains a database interaction module for managing A/B test data on subscription models. It includes Python scripts for:  
-- Connecting to a PostgreSQL database
-- Handling data shards
-- Importing, transforming, and querying subscription-related datasets
-- Running analytics to evaluate A/B test results
+# sharded-postgres-importer
+A Python-based solution for importing and managing sharded PostgreSQL databases using Peewee ORM. 
+This repository provides a structured approach for handling CSV data, creating database connections, managing table operations, and querying aggregated install counts per country. 
+It supports automatic sharding across multiple database instances and ensures efficient data insertion and retrieval.

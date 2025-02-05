@@ -1,0 +1,13 @@
+connection_db :
+  user: adjust_user
+  password: adjust_pw
+  host: '127.0.0.1'
+  port: '5432'
+
+local_shard_files: [shard1.csv, shard2.csv, shard3.csv]
+
+selected_columns: [country, created_at, paid, installs]
+
+datetime_column: created_at
+
+postgres_instances: [adjust_db1, adjust_db2, adjust_db3]
